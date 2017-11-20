@@ -1,25 +1,5 @@
 package org.formacio.setmana2.domini;
 
-<<<<<<< HEAD
-public class Alumne {
-
-	private String nom;
-	
-	private int edat;
-	
-	public String getNom() {
-		return nom;
-	}
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-	public int getEdat() {
-		return edat;
-	}
-	public void setEdat(int edat) {
-		this.edat = edat;
-	}
-=======
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -72,8 +52,5 @@ public class Alumne {
 			return false;
 		return true;
 	}
-	
-	
->>>>>>> refs/remotes/origin/master
-	
+		
 }

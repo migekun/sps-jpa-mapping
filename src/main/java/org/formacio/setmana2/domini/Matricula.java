@@ -1,14 +1,5 @@
 package org.formacio.setmana2.domini;
 
-<<<<<<< HEAD
-
-public class Matricula {
-
-	private Long id; 
-	
-	private Alumne alumne;
-	
-=======
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -32,7 +23,6 @@ public class Matricula {
 	
 	@ManyToOne	
 	@JoinColumn(name="mat_curs")
->>>>>>> refs/remotes/origin/master
 	private Curs curs;
 	
 	public Long getId() {
