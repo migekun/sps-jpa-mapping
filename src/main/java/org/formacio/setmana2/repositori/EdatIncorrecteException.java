@@ -7,4 +7,10 @@ package org.formacio.setmana2.repositori;
  *   per defecte: checked -> commit
  * NO heu de canviar res d'aquest fitxer !
  */
+<<<<<<< HEAD
 public class EdatIncorrecteException extends Exception {}
+=======
+public class EdatIncorrecteException extends Exception {
+	private static final long serialVersionUID = 1L;
+}
+>>>>>>> refs/remotes/origin/master
